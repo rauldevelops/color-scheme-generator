@@ -30,12 +30,12 @@ body {
 }
 
 .select-color-scheme {
-    font-size: 1rem;
+    font-size: .75rem;
     padding-left: 1em; 
 }
 
 .get-color-scheme-btn {
-    font-size: 1rem;
+    font-size: .75rem;
     padding: 0 1em;
     background-color: #fff;
     color: black;
@@ -44,7 +44,7 @@ body {
 .color-scheme-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    height: 85vh;
+    height: 75vh;
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
