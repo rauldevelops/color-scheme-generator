@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Color Palette Picker</title>
+</head>
+<body>
+    <form class="color-form" id="color-form">
+        <input type="color" name="color" class= "form-child-borders color-picker" id="color-picker" aria-label="Choose a base color.">
+        <select name="scheme" class="form-child-borders select-color-scheme" id="select-color-scheme" aria-label="Select a color scheme.">
+            <option value="monochrome">Monochrome</option>
+            <option value="monochrome-dark">Monochrome Dark</option>
+            <option value="monochrome-light">Monochrome Light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic-Complement</option>
+            <option value="triad">Triad</option>
+            <option value="quad">Quad</option>
+        </select>
+        <button type="submit" class="form-child-borders get-color-scheme-btn" id="get-color-scheme-btn">Get Color Scheme</button>
+    </form>
+    <div class="color-scheme-container" id="color-scheme-container">
+        <div class="swatch-container" id="swatch-container">
+            <div class="swatch color-swatch-0" id="color-swatch-0" data-color="#ff0000"></div>
+            <p class="hex-text" id="hex-text-0" data-color="#ff0000">#ff0000</p>
+        </div>
+        <div class="swatch-container" id="swatch-container">
+            <div class="swatch color-swatch-1" id="color-swatch-1" data-color="#ffa500"></div>
+            <p class="hex-text" id="hex-text-1" data-color="#ffa500">#ffa500</p>
+        </div>
+        <div class="swatch-container" id="swatch-container">
+            <div class="swatch color-swatch-2" id="color-swatch-2" data-color="#ffff00"></div>
+            <p class="hex-text" id="hex-text-2" data-color="#ffff00">#ffff00</p>
+        </div>
+        <div class="swatch-container" id="swatch-container">
+            <div class="swatch color-swatch-3" id="color-swatch-3" data-color="#00ff00"></div>
+            <p class="hex-text" id="hex-text-3" data-color="#00ff00">#00ff00</p>
+        </div>
+        <div class="swatch-container" id="swatch-container">
+            <div class="swatch color-swatch-4" id="color-swatch-4" data-color="0000ff"></div>
+            <p class="hex-text" id="hex-text-4" data-color="0000ff">#0000ff</p>
+        </div>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
