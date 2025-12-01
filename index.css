@@ -77,3 +77,11 @@ body {
     background-color: #0000ff;
 }
 
+.hex-text {
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    padding: .5em;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin: 0.25em;
+}
