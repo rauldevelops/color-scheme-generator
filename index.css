@@ -21,22 +21,24 @@ body {
 .form-child-borders {
     border: 1px solid #9CA3AF;
     border-radius: 8px;
+    height: 50px
 }
 
 .color-picker {
-    height: 4em;
-    width: 4em;
+    display: block;
+    width: 50px;
 }
 
 .select-color-scheme {
-    font-size: 1.25rem;
-    padding: .66em;    
+    font-size: 1rem;
+    padding-left: 1em; 
 }
 
 .get-color-scheme-btn {
     font-size: 1rem;
-    padding: 1em;
+    padding: 0 1em;
     background-color: #fff;
+    color: black;
 }
 
 .color-scheme-container {
